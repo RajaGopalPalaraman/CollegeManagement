@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/index">
+
+    <fragment
+        android:id="@+id/index"
+        android:name="com.example.collegemanagement.IndexFragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_index" />
+    <fragment
+        android:id="@+id/add_notification"
+        android:name="com.example.collegemanagement.AddNotificationFragment"
+        android:label="Add Notification"
+        tools:layout="@layout/fragment_add_notification" />
+
+    <fragment
+        android:id="@+id/info"
+        android:name="com.example.collegemanagement.InfoFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.example.collegemanagement.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_info" />
+
+</navigation>
